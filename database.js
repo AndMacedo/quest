@@ -26,7 +26,7 @@ database
   .query("select * from movies")
   .then((result) => {
     const movies = result[0];
-    console.log(result);
+    console.log(movies);
   })
   .catch((err) => {
     console.error(err);
@@ -35,7 +35,7 @@ database
   .query("select * from users")
   .then((result)=>{
     const users=result[0];
-    console.log(result);
+    console.log(users);
   })
   .catch((err)=>{
     console.error(err);
